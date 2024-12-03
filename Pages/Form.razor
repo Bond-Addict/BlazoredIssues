@@ -1,0 +1,65 @@
+@page "/form"
+@using BlazorServiceWithFluentValidation.Data.Person;
+@using FluentValidation;
+@using System.Reflection;
+@using System.Runtime.InteropServices
+@using System.Runtime.CompilerServices
+
+@inject IValidator<Person> Validator
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+
+<EditForm EditContext="editContext" OnSubmit="Submit">
+	<FluentValidationValidator Validator="@Validator" />
+	<InputText @bind-Value="model.Name" />
+
+
+	<button type="submit">Submit</button>
+	@if (isSuccess.HasValue)
+	{
+		if (isSuccess.Value)
+		{
+			<p>Success!</p>
+		}
+		else
+		{
+			<p>Failure!</p>
+		}
+	}
+</EditForm>
+
+<style lang="css">
+	.invalid {
+		border: 1px solid red;
+	}
+</style>
+@code {
+	[CascadingParameter]
+	private EditContext editContext { get; set; }
+	private Person model;
+	private bool? isSuccess;
+
+	protected override void OnInitialized()
+	{
+		if (model is null)
+			model = new();
+
+		editContext = new EditContext(model);
+
+		base.OnInitialized();
+	}
+
+	protected async override void OnAfterRender(bool firstRender)
+	{
+		var item = await sessionStorage.GetItemAsync<object>("_myKey");
+
+		var sessionItem = new byte[25 * 1024];
+		await sessionStorage.SetItemAsync("_myKey", sessionItem);
+
+		base.OnAfterRender(firstRender);
+	}
+
+	private void Submit()
+	{
+		isSuccess = Validator.Validate(model).IsValid;
+	}
+}
