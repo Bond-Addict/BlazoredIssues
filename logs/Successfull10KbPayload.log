@@ -1,0 +1,342 @@
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[1]
+      Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[1]
+      Registered SignalR Protocol: blazorpack, implemented by Microsoft.AspNetCore.Components.Server.BlazorPack.BlazorPackHubProtocol.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'StartCircuit' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'UpdateRootComponents' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'ConnectCircuit' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'BeginInvokeDotNetFromJS' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'EndInvokeJSFromDotNet' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'ReceiveByteArray' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'ReceiveJSDataChunk' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'SendDotNetStreamToJS' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'OnRenderCompleted' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'OnLocationChanged' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'OnLocationChanging' is bound.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7172
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5230
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\VS\BlazorServiceWithFluentValidation
+trce: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager[9]
+      Starting connection heartbeat.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager[1]
+      New connection aHp8rE39svkxg8rUlC8mZA created.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher[10]
+      Sending negotiation response.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher[4]
+      Establishing new connection.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionHandler[5]
+      OnConnectedAsync started.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[1]
+      Socket opened using Sub-Protocol: '(null)'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Text, size: 38, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[2]
+      Found protocol implementation for requested protocol: blazorpack.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionContext[1]
+      Completed connection handshake. Using HubProtocol 'blazorpack'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 3 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 3, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 1718, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "0", Target: "StartCircuit", Arguments: [ https://localhost:7172/, https://localhost:7172/, [{"type":"server","prerenderId":"3002482ea9114ce8a6312ea950bcc6b4","key":{"locationHash":"77D12F14A8105320B1AAED6AE7E689DA0EC4483270A645E84079EAA0FFDF550D:0","formattedComponentKey":""},"sequence":0,"descriptor":"CfDJ8LArvQ5hnalKqKZBDlGQirL9TahthwvWFLE9t1q7a5ZqMLXejRs/2X06hAKPosfxQ1xLQ8kYM/mojp/FUzQa8Sx5U8YzpC2Tm2C6vbLtToCPnA/w4ugNLyCYnuYqfhSbmEVH27sP6fm9dUK1EOp7sqbiF8c+nmZgWfSU2bU65vjRHW1x0rvUxALi2vClXYjHtK/iQxrbrGQpjpA71+CmrPeE6ZZxHIJh95kHaaK3jYvwDOmNmtprg5V448NBElcTD9ng0/K5qRq9SV8ATHY1wVeiM+/2CBSsg9Ubas5CwqP55chStad+9lOznPrOJdJwWlyr706kXDx8LcHfiKWF+GuEb0PHIHMI9EHd2QAk1X/e9GDDyzsnAD7W6gBfowPBlAcH6YWJ2oqG9JLk/ttsPtMsacjEJOmhuT0WrEtM/QFKzofYeD1iARjDml+5fjUHJSNfQISjBWo18EmdpFXv9s+drpU3UiBinXJiRPwFKoEhDOe9R42FM2NUpxBv8tyq3ZI+XCfIg6qY74vs2unt2dQ578qCYT4cIDgC7Y5k0BT3x0Mhe+pQ3/Smj0uTNxa6LgiyEXbFgaWcswvio+Qs7HA=","uniqueId":0},{"type":"server","prerenderId":"fd17e33e8c9a4bb4bdca8e046a7836c5","key":{"locationHash":"74DFAA084CD79FD01DEEB0359AF37A9E4B443FFC2E8D8E6DE1F872B536068709:0","formattedComponentKey":""},"sequence":1,"descriptor":"CfDJ8LArvQ5hnalKqKZBDlGQirIVI3QcrMCpVsQpHdFqkQDU4R9fU+vCifWd7nqt3VcWLc6pT+1tFYmMYDvxEfkpdAFi0VI4phYZg49vR1svlAo4r8uXsC0qV3nu+AITnMhs2jdxMXX6WodBqLKqDFK+U5KFsjWn99mnpHihW0jHKABpYzMTaR7wuVlDLvK73R/9R1tNR58Q0DQMvqvkjYw7/yEp1ak1/HuXioqSaGp6H/IhcPqRFG3ZSAv9FyqrshdSqUpqdKqN7rU9SEUyf6XPZchzd231BJ149G5EZfjUlV8tFWmTjZdHAwry9HR24tXb/Oe20XKjw+6vqQIdTxf4vnodvaZAj3o3sb/ugISGOXR0eF/3OFkbkos3b3L4CZfQmi0cXTAYldvDDdV9VtiR5drTsymVwxjC3/why/6CEVEzYEzSOY6CwcM6e1cohwbKTWIOqGme/mFFIgogUNzOOWBS6GuwM6Lkl0KYc3fER+UfzEppD/6uE6h0F0kUmVNtko2bESJQFeN9UhxX4clf/omYOlyruJ0mgXbPMqMBu5SGP2PKBiQdsRttzSa0AtAVyg==","uniqueId":1}],  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 101 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 29 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 421 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 29 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 4625 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId 0: Sending result of type 'System.String'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 2, True, [2,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 229 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 2,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 82 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 3,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 3, True, [3,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 96 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 4, True, [4,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 5, True, [5,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 121 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 4,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 427, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "BeginInvokeDotNetFromJS", Arguments: [ 1, , DispatchEventAsync, 1, [{"eventHandlerId":2,"eventName":"click","eventFieldInfo":null},{"detail":1,"screenX":2058,"screenY":-586,"clientX":134,"clientY":147,"offsetX":118,"offsetY":19,"pageX":134,"pageY":147,"movementX":0,"movementY":0,"button":0,"buttons":0,"ctrlKey":false,"shiftKey":false,"altKey":false,"metaKey":false,"type":"click"}] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 123 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnLocationChanged", Arguments: [ https://localhost:7172/form, , True ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 32 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 1855 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 166 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 202 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 5,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 6,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 7,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 8,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 6, True, [6,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 7, True, [7,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 8, True, [8,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 13735 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 9, True, [9,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 418, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "BeginInvokeDotNetFromJS", Arguments: [ 2, , DispatchEventAsync, 1, [{"eventHandlerId":2,"eventName":"click","eventFieldInfo":null},{"detail":1,"screenX":2010,"screenY":-644,"clientX":86,"clientY":89,"offsetX":70,"offsetY":17,"pageX":86,"pageY":89,"movementX":0,"movementY":0,"button":0,"buttons":0,"ctrlKey":false,"shiftKey":false,"altKey":false,"metaKey":false,"type":"click"}] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 157 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 32 bytes.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnLocationChanged", Arguments: [ https://localhost:7172/, , True ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 1566 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 202 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 166 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 9,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 10,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 11,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 12,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 45, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 10, True, [10,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 424, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "BeginInvokeDotNetFromJS", Arguments: [ 3, , DispatchEventAsync, 1, [{"eventHandlerId":2,"eventName":"click","eventFieldInfo":null},{"detail":1,"screenX":2019,"screenY":-584,"clientX":95,"clientY":149,"offsetX":79,"offsetY":21,"pageX":95,"pageY":149,"movementX":0,"movementY":0,"button":0,"buttons":0,"ctrlKey":false,"shiftKey":false,"altKey":false,"metaKey":false,"type":"click"}] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 123 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 32 bytes.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnLocationChanged", Arguments: [ https://localhost:7172/form, , True ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 1855 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 166 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 202 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 13,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 14,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 15,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 45, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 16,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 11, True, [11,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 3999, EndOfMessage: False.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 1515, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 12, True, [12,true,"\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\""] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 1418, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 13, True, [13,true,"\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\""] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 13735 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 45, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 14, True, [14,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.

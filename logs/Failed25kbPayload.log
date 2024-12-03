@@ -1,0 +1,388 @@
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[1]
+      Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[1]
+      Registered SignalR Protocol: blazorpack, implemented by Microsoft.AspNetCore.Components.Server.BlazorPack.BlazorPackHubProtocol.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'StartCircuit' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'UpdateRootComponents' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'ConnectCircuit' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'BeginInvokeDotNetFromJS' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'EndInvokeJSFromDotNet' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'ReceiveByteArray' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'ReceiveJSDataChunk' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'SendDotNetStreamToJS' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'OnRenderCompleted' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'OnLocationChanged' is bound.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[9]
+      'ComponentHub' hub method 'OnLocationChanging' is bound.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7172
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5230
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\VS\BlazorServiceWithFluentValidation
+trce: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager[9]
+      Starting connection heartbeat.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager[1]
+      New connection 0A1xEQ1p6kxh0UvwZhRM9g created.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher[10]
+      Sending negotiation response.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher[4]
+      Establishing new connection.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionHandler[5]
+      OnConnectedAsync started.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[1]
+      Socket opened using Sub-Protocol: '(null)'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Text, size: 38, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[2]
+      Found protocol implementation for requested protocol: blazorpack.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionContext[1]
+      Completed connection handshake. Using HubProtocol 'blazorpack'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 3 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 3, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 1718, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "0", Target: "StartCircuit", Arguments: [ https://localhost:7172/, https://localhost:7172/, [{"type":"server","prerenderId":"134a15c0e2624f249214d302d4281b3e","key":{"locationHash":"77D12F14A8105320B1AAED6AE7E689DA0EC4483270A645E84079EAA0FFDF550D:0","formattedComponentKey":""},"sequence":0,"descriptor":"CfDJ8LArvQ5hnalKqKZBDlGQirJHr6hKOr7aKonE3OPPoCOdlSEE8wq0wo+RaoA3zb+NglgEmiHgp1UdkAsynsSRnStHF42kUssutACTcjx+LLEaBIRP/j3Zta5DtCR+VI9MKLNlJWiqCDYLGa54nQ2RSo/YfSzaJDYjfznJextdLRJ4cZd789wNgf85oYC62Z8OsAVKOs5u0Gx8GQgRTDZcNzqIB2YYs79e5jIPRJP3KO1ywV24cXfwIZT6QY2rIrVe4wUCLFR/NIIo/x6W2t9ksr0M227D46ZxCaiPCQXqeon+kS4viIVBnStxJyxk4sK1NHpmMEd7A4cI4rHZyXqNkrVS7J1gKdsjnEHb/JG4WNxTC3qA8NtPWRvOVr5uYS4elAlk5S6h6rj2Ap3jvVL/jZFSdKa1dVF1WxWfItCEuzeSteGM/IrlrapQlTc119DgoxeQVABDps3qFZGP+IxOuANsvYtfAxWFaRtuPXbaqK5Fl67ZOQXhnNLYD3z8H9F1HU6+MH9+tQW7qeGGFkzFi2Lc0Z9bwhYBdl5/N+yhBb+YFR9a+7VcHrEfE8YA7HqLc0CEp/O0aNU1UGWkSL17Te8=","uniqueId":0},{"type":"server","prerenderId":"7437704f3bed4eb292f1834ee34fc08c","key":{"locationHash":"74DFAA084CD79FD01DEEB0359AF37A9E4B443FFC2E8D8E6DE1F872B536068709:0","formattedComponentKey":""},"sequence":1,"descriptor":"CfDJ8LArvQ5hnalKqKZBDlGQirKnI3MAG1dTiQIpxaVQcZe9/ZsqW6gLhVfWEOgIsGGo360tczVC6iFwLhsSg58DOHNxKJNBd7aNApnskKlNMCaFDACk6ZVme672FvWahTxNAabPUJR8QxgY33GtYyd97XYz7rNEgDZxZ1F27zs+Yh+uGYj2MgPYWduo9pLwW0nPMFxrqvr0tI2/7xhARn4WwE1Is9x9o3LzmRNAttshsG1Cg3Y3/dDyF3IIOH1Y59rK5P/zF5VyBeTOjGEcHWgnvuD32ifAK6ho4hITwMCfwkF4q8bRKSBD1smntaZHYpQP2YpC+zgKcgL7KZ5kGljJA4nwWT9fQUPnX709gAboYqEu/S05SUCyj3iK0xqDvwlzrpoc8a2rxqysMIoUw30bPc1PXK4WAsITOPEgUbSUO5cOOfVcsYkfBUM19J9jp+FDobFCfRDSPC0JSYyGiBmWjV0j8PyHSSiQ5wXtPlKK/WsVroJLPpW216PGNMGJrueBH/Z2Oey86JLIU0vKkKr9osHNe4elBycck/fW/MPH9hfa78S6e+tu0JF0FX4rMyyOSA==","uniqueId":1}],  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 101 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 29 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 421 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 29 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 4625 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId 0: Sending result of type 'System.String'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 2, True, [2,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 229 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 2,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 82 bytes.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 3,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 3, True, [3,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 96 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 4, True, [4,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 5, True, [5,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 121 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 4,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 427, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "BeginInvokeDotNetFromJS", Arguments: [ 1, , DispatchEventAsync, 1, [{"eventHandlerId":2,"eventName":"click","eventFieldInfo":null},{"detail":1,"screenX":2050,"screenY":-576,"clientX":126,"clientY":157,"offsetX":110,"offsetY":29,"pageX":126,"pageY":157,"movementX":0,"movementY":0,"button":0,"buttons":0,"ctrlKey":false,"shiftKey":false,"altKey":false,"metaKey":false,"type":"click"}] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 123 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnLocationChanged", Arguments: [ https://localhost:7172/form, , True ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 32 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 1855 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 166 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 202 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 5,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 6,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 7,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 8,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 6, True, [6,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 7, True, [7,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 8, True, [8,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 34216 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 44, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 9, True, [9,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 420, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "BeginInvokeDotNetFromJS", Arguments: [ 2, , DispatchEventAsync, 1, [{"eventHandlerId":2,"eventName":"click","eventFieldInfo":null},{"detail":1,"screenX":2018,"screenY":-633,"clientX":94,"clientY":100,"offsetX":78,"offsetY":28,"pageX":94,"pageY":100,"movementX":0,"movementY":0,"button":0,"buttons":0,"ctrlKey":false,"shiftKey":false,"altKey":false,"metaKey":false,"type":"click"}] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 157 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnLocationChanged", Arguments: [ https://localhost:7172/, , True ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 32 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 1566 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 202 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 166 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 9,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 10,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 11,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 12,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 45, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 10, True, [10,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 427, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "BeginInvokeDotNetFromJS", Arguments: [ 3, , DispatchEventAsync, 1, [{"eventHandlerId":2,"eventName":"click","eventFieldInfo":null},{"detail":1,"screenX":2048,"screenY":-565,"clientX":124,"clientY":168,"offsetX":108,"offsetY":40,"pageX":124,"pageY":168,"movementX":0,"movementY":0,"button":0,"buttons":0,"ctrlKey":false,"shiftKey":false,"altKey":false,"metaKey":false,"type":"click"}] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 123 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnLocationChanged", Arguments: [ https://localhost:7172/form, , True ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 32 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 1855 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 166 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 202 bytes.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 13,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 14,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 79 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 61 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 26, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 15,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 45, EndOfMessage: True.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "OnRenderCompleted", Arguments: [ 16,  ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "", Target: "EndInvokeJSFromDotNet", Arguments: [ 11, True, [11,true,null] ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId (null): Sending result of type 'System.Void'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 4096, EndOfMessage: False.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 1419, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 3 bytes.
+trce: Microsoft.AspNetCore.SignalR.HubConnectionContext[3]
+      Sent a ping message to the client.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionHandler[2]
+      Error when processing requests.
+      System.IO.InvalidDataException: The maximum message size of 32768B was exceeded. The message size can be configured in AddHubOptions.
+         at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.DispatchMessagesAsync(HubConnectionContext connection)
+         at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 163 bytes.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[4]
+      Waiting for the application to finish sending data.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[2]
+      Socket closed.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext[1]
+      Disposing connection 0A1xEQ1p6kxh0UvwZhRM9g.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionHandler[6]
+      OnConnectedAsync ending.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext[2]
+      Waiting for application to complete.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext[3]
+      Application complete.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager[2]
+      Removing connection Y_tlXT8OTA2S640okzDH5g from the list of connections.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager[1]
+      New connection CGEbkJn4K4qv9goaV14ung created.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher[10]
+      Sending negotiation response.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionDispatcher[4]
+      Establishing new connection.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionHandler[5]
+      OnConnectedAsync started.
+dbug: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[1]
+      Socket opened using Sub-Protocol: '(null)'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Text, size: 38, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver[2]
+      Found protocol implementation for requested protocol: blazorpack.
+dbug: Microsoft.AspNetCore.SignalR.HubConnectionContext[1]
+      Completed connection handshake. Using HubProtocol 'blazorpack'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 3 bytes.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 3, EndOfMessage: True.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[9]
+      Message received. Type: Binary, size: 244, EndOfMessage: True.
+dbug: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[1]
+      Received hub invocation: InvocationMessage { InvocationId: "0", Target: "ConnectCircuit", Arguments: [ CfDJ8LArvQ5hnalKqKZBDlGQirK8aY0iL9R9ua22jtWXJWEWP2ua-rHHzvSw4B_6WKe4IhLNMyon09gY-qJLe9PCdnS4J2WQ31iTsWqWJSfOz7jX9hCM67-qmnmb4eZE39uXeHbLG0bJefEWcFBP-HzZf5iARlkUx8P6vQ9ItrYBZTx6SH5gkoltV1b_2Jn1BRhuNEgGLJLm0tTp81WKWfvtp8M ], StreamIds: [  ] }.
+trce: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[7]
+      InvocationId 0: Sending result of type 'System.Boolean'.
+trce: Microsoft.AspNetCore.Http.Connections.Internal.Transports.WebSocketsTransport[11]
+      Sending payload: 8 bytes.
+
+C:\VS\BlazorServiceWithFluentValidation\bin\Debug\net8.0\BlazorServiceWithFluentValidation.exe (process 32852) exited with code -1 (0xffffffff).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
+
+
+
+
+WITH 25kb payload
