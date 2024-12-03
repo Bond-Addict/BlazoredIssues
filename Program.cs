@@ -1,13 +1,10 @@
 using Blazored.SessionStorage;
-using BlazorServiceWithFluentValidation.Data.Person;
-using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddTransient<IValidator<Person>, PersonValidator>();
 builder.Services.AddBlazoredSessionStorage();
 
 builder.Services.AddSignalR(o =>
