@@ -1,9 +1,18 @@
 ﻿@page "/"
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
 
-<PageTitle>Index</PageTitle>
+<PageTitle>BlazoredIssues</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Please <a href="" onclick="javascript:window.location.reload()">refresh</a> browser to get previously set item</h1>
 
-Welcome to your new app.
+@code{
+	protected async override void OnAfterRender(bool firstRender)
+	{
+		var item = await sessionStorage.GetItemAsync<object>("_myKey");
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+		var sessionItem = new byte[10 * 1024];
+		await sessionStorage.SetItemAsync("_myKey", sessionItem);
+
+		base.OnAfterRender(firstRender);
+	}
+}
